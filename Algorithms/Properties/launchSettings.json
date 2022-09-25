@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Algorithms": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Workspace\\Programming\\C#\\Libraries\\Algorithms"
+    }
+  }
+}
