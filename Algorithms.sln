@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Al
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAlgorithms", "TestAlgorithms\TestAlgorithms.csproj", "{C90C5DB8-87BA-4055-A756-15A25B31080E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempExecutable", "TempExecutable\TempExecutable.csproj", "{DDE710A7-DED4-4523-9A4C-78566351B564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempExecutable", "TempExecutable\TempExecutable.csproj", "{DDE710A7-DED4-4523-9A4C-78566351B564}"
 	ProjectSection(ProjectDependencies) = postProject
 		{EDC86BA5-5F19-4D1B-9851-0EC16C5B4437} = {EDC86BA5-5F19-4D1B-9851-0EC16C5B4437}
 	EndProjectSection

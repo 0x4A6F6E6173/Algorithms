@@ -79,10 +79,6 @@
 
         public void PrintGraph(int internalSeperator = 5)
         {
-            int nodeCount = nodeList.Count;
-            Func<int, int> computeDigits = x => ((int)Math.Floor(x == 0 ? 0 : Math.Log10(x))) + 1;
-            int digitCount = computeDigits(nodeCount);
-
             var thickCross = "╋";
             var thinCross = "┼";
             var thickVerticalCross = "╂";
@@ -94,6 +90,10 @@
             var thickVerticalLine = "┃";
             var thinVerticalLine = "│";
 
+
+            int nodeCount = nodeList.Count;
+            Func<int, int> computeDigits = x => ((int)Math.Floor(x == 0 ? 0 : Math.Log10(x))) + 1;
+            int digitCount = computeDigits(nodeCount);
             Func<int, string> indentNumber = x => new String(' ', digitCount - computeDigits(x)) + x.ToString();
             
             Console.WriteLine($"Full matrix size: [{ matrixSize }]");
